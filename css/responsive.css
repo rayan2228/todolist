@@ -1,0 +1,41 @@
+@media (min-width:320px) and (max-width:575px) {
+    #searchtextbox {
+        width: 280px;
+    }
+
+    .todo-outer h1 {
+        font-size: 37px !important;
+    }
+
+    #addtaskinput {
+        width: auto;
+        margin: 10px 0px;
+    }
+
+    #addtaskbtn {
+        margin: 10px 8px;
+    }
+    #savetaskbtn {
+        margin: 10px 8px;
+    }
+
+    #deleteallbtn {
+        margin: 10px 6px;
+    }
+    .list  li{
+        flex-direction: column;
+    }
+    .list li .task-number {
+        width:auto;
+    }
+    .list li .task-name {
+        width: auto;
+        overflow: scroll;
+    }
+    .list li .edit-task {
+        width:auto;
+    }
+    .list li .delete-task {
+        width:auto;
+    }
+}
